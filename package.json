@@ -6,14 +6,14 @@
         "node": "22.x"
     },
     "scripts": {
-        "start": "ts-node src/index.ts",
+        "start": "node src/index.ts",
         "build": "tsc",
         "serve": "node dist/index.js"
     },
     "author": "",
     "license": "ISC",
     "description": "",
-    "devDependencies": {
+    "dependencies": {
         "@types/express": "^5.0.0",
         "@types/node": "^22.7.5",
         "express": "^4.21.1",
